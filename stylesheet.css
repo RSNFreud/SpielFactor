@@ -1,0 +1,359 @@
+@font-face {
+  font-family: "Agency FB";
+  src: url(fonts/AGENCYR.TTF);
+}
+
+html body {
+	font-family: "Agency FB" !important;
+	background-image: url("images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.row {
+	margin: 0;
+}
+
+a {
+	color: white;
+	font-weight: bolder;
+}
+
+a:hover {
+	text-decoration: none;
+	color: white;
+}
+
+.stickybar {
+	padding: 90px 0px 0px;
+}
+.header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1030;
+}
+
+.jumbotron-fluid img {
+	width: 100%;					  
+}
+.box {
+	font-size: 0.8em;
+	background-color: #8f0808;
+	color: white;
+	text-transform: uppercase;
+	padding: 0px 30px;
+	border-bottom: #ba0d0d solid 8px;
+	line-height: 30px;
+}
+
+.box img {
+	height: 2em;
+	width: auto;
+	vertical-align: bottom;
+}
+#contentbox {
+	min-height: 400px;
+	padding: 0px 50px 110px;
+}
+
+.title { 
+	text-align: center;
+	font-weight: bolder;
+	font-size: 2.5em;
+	text-transform: uppercase;
+	box-shadow: 0px 1px 2px 0px black;
+	color: white;
+	background-color: rgba(143,8,8,0.80);
+}
+.content {
+	color: white;
+	background-color: rgba(19,19,19,0.80);
+	padding: 25px 30px 5px;
+	height: 100%;
+	font-size: 2em;
+	text-align: left;
+}
+.box a {
+	color: white;
+	text-decoration: none;
+}
+
+.navbar {
+	padding: 1px 50px;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	background-color: #131313;
+}
+
+.footer {
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 10px 0px;
+	background-color: #131313;
+	color: white;
+	text-align: center;
+	text-transform: uppercase;
+	
+}
+#sidebar {
+	visibility: hidden;
+	display: none;
+	color: white;
+	padding: 0px 40px 110px 0px;
+}
+.feed {
+	height: auto;
+	background-color: rgba(19,19,19,0.80);
+	text-align: center;
+	font-size: 2.5em;
+	font-weight: bolder;
+	
+}
+.sidebar-text {
+	visibility: hidden;
+	display: none;
+	text-align: center;
+
+}			   
+
+.navbar-nav a {
+	color: white;
+	text-transform: uppercase;
+}
+
+.navbar-nav a:hover .nav-link:hover {
+	color: red !important;
+	text-decoration: none;
+}
+
+.navbar-brand {
+	font-size: 1.5em;
+	color: white !important;
+}
+#navrow {
+	width: 100%;
+	margin: auto;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+}
+
+#notfound .notfound {
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.notfound {
+    max-width: 767px;
+	text-transform: uppercase;
+	font-size: 2em;
+    width: 100%;
+    line-height: 1.4;
+    padding: 0px 15px;
+	color: black;
+}
+
+.errortext a {
+	color: black;
+	font-weight: bolder;
+}
+
+.errortext a:hover {
+	text-decoration: none;
+}
+.errortitle {
+	text-align: center;
+	line-height: normal!important;
+	text-transform: uppercase;
+	font-size: 5.5em;
+	font-weight: bolder;
+	
+}					 
+.social {
+	font-weight: bolder;
+	background-color: #bd1010;
+	border-radius: 10px;
+	padding: 2px 10px;
+	font-size: 1.2em;
+	color: white !important;
+}
+
+.social:hover {
+	text-decoration: none;
+	background-color: maroon;
+}
+
+
+
+@media (max-width: 320px) {
+	.box img {
+		height: 2em;
+		padding-bottom: 7px;
+		width: auto;
+		vertical-align: bottom;
+	}
+	.navbar-brand {
+		font-size: 1em;
+	}	
+	.navbar-toggler {
+		font-size: 1em;
+		padding: 1px 3px;
+	}
+	.box a {
+		padding: 0px 0px !important;
+		font-size: 0.8em;
+	}
+	
+	.footer {
+		font-size: 0.8em;
+	}
+
+	#contentbox {
+		padding: 0px 20px 120px;
+	}	
+	.jumbotron-fluid {
+		margin: 0px 0px 15px;
+	}
+
+	.stickybar {
+		padding: 100px 0px 0px
+	}
+	.navbar {
+		padding: 1px 20px;
+	}
+	.errortitle {
+		font-size: 2em !important;
+	}
+	
+	.errortext {
+		font-size: 0.75em;
+		text-align: justify;
+	}
+
+}
+@media (max-width: 410px) {
+	.box img {
+		height: 2em;
+		padding-bottom: 7px;
+		width: auto;
+		vertical-align: bottom;
+	}
+	.navbar-brand {
+		font-size: 1em;
+	}	
+	.navbar-toggler {
+		font-size: 1em;
+		padding: 1px 3px;
+	}
+	.box {
+		padding: 0px 10px !important;
+		font-size: 0.7em;
+	}
+
+	#contentbox {
+		padding: 0px 20px 120px;
+	}	
+	.jumbotron-fluid {
+		margin: 0px 0px 15px;
+	}
+
+	.stickybar {
+		padding: 100px 0px 0px
+	}
+	.navbar {
+		padding: 1px 20px;
+	}
+	.errortitle {
+		font-size: 2em !important;
+	}
+	
+	.errortext {
+		font-size: 0.75em;
+		text-align: justify;
+	}
+
+}
+
+@media (max-width: 990px) {
+	.navbar-brand {
+		font-size: 1em;
+	}	
+	.navbar-toggler {
+		font-size: 1em;
+		padding: 1px 3px;
+	}
+	.box {
+		padding: 0px 10px;
+	}
+
+	#contentbox {
+		padding: 0px 20px 120px;
+	}	
+	.jumbotron-fluid {
+		margin: 0px 0px 15px;
+	}
+
+	.stickybar {
+		padding: 90px 0px 0px
+	}
+	.navbar {
+		padding: 1px 20px;
+	}
+	.errortitle {
+		font-size: 2.5em;
+	}
+	
+	.errortext {
+		font-size: 0.75em;
+		text-align: justify;
+	}
+
+}
+
+@media (min-width: 992px) {
+	.navbar-expand-lg .navbar-nav .nav-link {
+		padding: 0px 20px;
+	}
+	.jumbotron-fluid {
+		margin: 0px 0px 10px;
+	}
+	.navbar-nav {
+		justify-content: center;
+		vertical-align: middle;
+		padding: 7px;
+	}
+	.box {
+		font-size: 0.8em;
+		padding: 5px 50px;
+		line-height: 30px;
+	}
+	.navbar-nav a {
+		padding: 0px 20px;
+	}
+	#register {
+		text-align: right;
+		padding-top: 2.5px;
+	}
+	#sidebar {
+		visibility: visible;
+		display: block;
+	}
+
+	.sidebar-text {
+		visibility: visible;
+		display: block;
+	}
+}
+.countdowntitle {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 2em;
+	padding: 5px 10px;
+	text-transform: uppercase;
